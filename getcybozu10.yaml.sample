@@ -1,0 +1,7 @@
+cybozu_url: https://fogefoge.com/cgi-bin/cbag/ag.cgi
+calname: Cybozu
+userid: 1
+password: foge
+time_zone: Asia/Tokyo
+input_encoding: utf-8
+output_file: /tmp/cybozu10ical.ics

@@ -1,0 +1,18 @@
+#+TITLE: org-ical-utils
+
+* Usage
+
+** getcybozu10.pl
+
+[[http://www.goodnai.com/blog/2014/10/19/%E3%82%B5%E3%82%A4%E3%83%9C%E3%82%A6%E3%82%BAoffice10%E3%82%92ical%E3%81%AB%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%A8caldav%E3%82%B5%E3%83%BC%E3%83%90/][サイボウズOffice10をiCalに変換するスクãªプトとCalDavサーバ（ownCloud）にアップロード | Kung Noi Blog]]
+
+#+BEGIN_SRC sh
+perl getcybozu10.pl --conf /path/to/getcybozu10.yaml
+#+END_SRC
+
+** ical2org.pl
+[[http://perlstalker.vuser.org/blog/2014/06/04/importing-ical-into-org-mode/][Importing iCal Into Org-mode - PerlStalker’s SysAdmin Notes]]
+
+#+BEGIN_SRC sh
+perl ical2org.pl -c CATEGORY_NAME < SOURCE_ICAL.ics > TARGET_ORG.org
+#+END_SRC
